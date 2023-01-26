@@ -9,23 +9,51 @@
 /* Begin PBXBuildFile section */
 		3614462B29426EED0074923E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614462A29426EED0074923E /* AppDelegate.swift */; };
 		3614462D29426EED0074923E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614462C29426EED0074923E /* SceneDelegate.swift */; };
-		3614462F29426EED0074923E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614462E29426EED0074923E /* ViewController.swift */; };
-		3614463229426EED0074923E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3614463029426EED0074923E /* Main.storyboard */; };
-		3614463529426EED0074923E /* JohnsonOutdoorsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3614463329426EED0074923E /* JohnsonOutdoorsTest.xcdatamodeld */; };
+		3614463529426EED0074923E /* TestProjectMVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3614463329426EED0074923E /* TestProjectMVP.xcdatamodeld */; };
 		3614463729426EEE0074923E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3614463629426EEE0074923E /* Assets.xcassets */; };
 		3614463A29426EEE0074923E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3614463829426EEE0074923E /* LaunchScreen.storyboard */; };
+		36144645294273D80074923E /* PersonalDataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36144643294273D80074923E /* PersonalDataListViewController.swift */; };
+		36144646294273D80074923E /* PersonalDataListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36144644294273D80074923E /* PersonalDataListViewController.xib */; };
+		36144648294275830074923E /* PersonalDataListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36144647294275830074923E /* PersonalDataListPresenter.swift */; };
+		3614464B2942799D0074923E /* PersonalDataDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614464A2942799D0074923E /* PersonalDataDBManager.swift */; };
+		3614464D29427A760074923E /* PeronalDataListFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614464C29427A760074923E /* PeronalDataListFormatter.swift */; };
+		3614465029427B130074923E /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614464F29427B130074923E /* PersonalData.swift */; };
+		3614465329427C240074923E /* PersonalDataMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614465129427C240074923E /* PersonalDataMO+CoreDataClass.swift */; };
+		3614465429427C240074923E /* PersonalDataMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614465229427C240074923E /* PersonalDataMO+CoreDataProperties.swift */; };
+		3614465729427D370074923E /* PersonalDataUIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614465629427D370074923E /* PersonalDataUIModels.swift */; };
+		3614465D2942842A0074923E /* PersonalDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614465B2942842A0074923E /* PersonalDataCell.swift */; };
+		3614465E2942842A0074923E /* PersonalDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3614465C2942842A0074923E /* PersonalDataCell.xib */; };
+		3614466129428F910074923E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614466029428F910074923E /* Extensions.swift */; };
+		3677078F2942C3BC004EF2D3 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677078E2942C3BB004EF2D3 /* DataFetcher.swift */; };
+		367707912942C4EF004EF2D3 /* PersonalDataFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367707902942C4EF004EF2D3 /* PersonalDataFilter.swift */; };
+		367707942943A9DE004EF2D3 /* Generated.json in Resources */ = {isa = PBXBuildFile; fileRef = 361446622942B6C30074923E /* Generated.json */; };
+		367707A32982E237004EF2D3 /* PersonalDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367707A22982E237004EF2D3 /* PersonalDataParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3614462729426EED0074923E /* JohnsonOutdoorsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnsonOutdoorsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3614462729426EED0074923E /* TestProjectMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProjectMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3614462A29426EED0074923E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3614462C29426EED0074923E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3614462E29426EED0074923E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3614463129426EED0074923E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3614463429426EED0074923E /* JohnsonOutdoorsTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JohnsonOutdoorsTest.xcdatamodel; sourceTree = "<group>"; };
 		3614463629426EEE0074923E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3614463929426EEE0074923E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3614463B29426EEE0074923E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36144643294273D80074923E /* PersonalDataListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataListViewController.swift; sourceTree = "<group>"; };
+		36144644294273D80074923E /* PersonalDataListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalDataListViewController.xib; sourceTree = "<group>"; };
+		36144647294275830074923E /* PersonalDataListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataListPresenter.swift; sourceTree = "<group>"; };
+		3614464A2942799D0074923E /* PersonalDataDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataDBManager.swift; sourceTree = "<group>"; };
+		3614464C29427A760074923E /* PeronalDataListFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeronalDataListFormatter.swift; sourceTree = "<group>"; };
+		3614464F29427B130074923E /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		3614465129427C240074923E /* PersonalDataMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalDataMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3614465229427C240074923E /* PersonalDataMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalDataMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3614465629427D370074923E /* PersonalDataUIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataUIModels.swift; sourceTree = "<group>"; };
+		3614465B2942842A0074923E /* PersonalDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataCell.swift; sourceTree = "<group>"; };
+		3614465C2942842A0074923E /* PersonalDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalDataCell.xib; sourceTree = "<group>"; };
+		3614466029428F910074923E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		361446622942B6C30074923E /* Generated.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Generated.json; sourceTree = "<group>"; };
+		3677078E2942C3BB004EF2D3 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		367707902942C4EF004EF2D3 /* PersonalDataFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataFilter.swift; sourceTree = "<group>"; };
+		367707A22982E237004EF2D3 /* PersonalDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +70,7 @@
 		3614461E29426EED0074923E = {
 			isa = PBXGroup;
 			children = (
-				3614462929426EED0074923E /* JohnsonOutdoorsTest */,
+				3614462929426EED0074923E /* TestProjectMVP */,
 				3614462829426EED0074923E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +78,126 @@
 		3614462829426EED0074923E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3614462729426EED0074923E /* JohnsonOutdoorsTest.app */,
+				3614462729426EED0074923E /* TestProjectMVP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3614462929426EED0074923E /* JohnsonOutdoorsTest */ = {
+		3614462929426EED0074923E /* TestProjectMVP */ = {
 			isa = PBXGroup;
 			children = (
+				36144641294272A20074923E /* Resources */,
+				3614464E29427B020074923E /* Models */,
+				3614465529427C340074923E /* Core Data */,
+				361446492942798A0074923E /* Managers */,
+				3614465F29428F7E0074923E /* Extensions */,
+				36144642294273800074923E /* PersonList */,
+			);
+			path = TestProjectMVP;
+			sourceTree = "<group>";
+		};
+		36144641294272A20074923E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36770792294378F1004EF2D3 /* JSON */,
 				3614462A29426EED0074923E /* AppDelegate.swift */,
 				3614462C29426EED0074923E /* SceneDelegate.swift */,
-				3614462E29426EED0074923E /* ViewController.swift */,
-				3614463029426EED0074923E /* Main.storyboard */,
 				3614463629426EEE0074923E /* Assets.xcassets */,
 				3614463829426EEE0074923E /* LaunchScreen.storyboard */,
 				3614463B29426EEE0074923E /* Info.plist */,
-				3614463329426EED0074923E /* JohnsonOutdoorsTest.xcdatamodeld */,
 			);
-			path = JohnsonOutdoorsTest;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		36144642294273800074923E /* PersonList */ = {
+			isa = PBXGroup;
+			children = (
+				3614465A294284030074923E /* UIModels */,
+				36144659294283E60074923E /* Views */,
+				36144643294273D80074923E /* PersonalDataListViewController.swift */,
+				36144644294273D80074923E /* PersonalDataListViewController.xib */,
+				36144647294275830074923E /* PersonalDataListPresenter.swift */,
+				3614464C29427A760074923E /* PeronalDataListFormatter.swift */,
+			);
+			path = PersonList;
+			sourceTree = "<group>";
+		};
+		361446492942798A0074923E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3614464A2942799D0074923E /* PersonalDataDBManager.swift */,
+				3677078E2942C3BB004EF2D3 /* DataFetcher.swift */,
+				367707902942C4EF004EF2D3 /* PersonalDataFilter.swift */,
+				367707A22982E237004EF2D3 /* PersonalDataParser.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3614464E29427B020074923E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3614464F29427B130074923E /* PersonalData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3614465529427C340074923E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3614465129427C240074923E /* PersonalDataMO+CoreDataClass.swift */,
+				3614465229427C240074923E /* PersonalDataMO+CoreDataProperties.swift */,
+				3614463329426EED0074923E /* TestProjectMVP.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		36144658294283DE0074923E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3614465B2942842A0074923E /* PersonalDataCell.swift */,
+				3614465C2942842A0074923E /* PersonalDataCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		36144659294283E60074923E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36144658294283DE0074923E /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3614465A294284030074923E /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				3614465629427D370074923E /* PersonalDataUIModels.swift */,
+			);
+			path = UIModels;
+			sourceTree = "<group>";
+		};
+		3614465F29428F7E0074923E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3614466029428F910074923E /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		36770792294378F1004EF2D3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				361446622942B6C30074923E /* Generated.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3614462629426EED0074923E /* JohnsonOutdoorsTest */ = {
+		3614462629426EED0074923E /* TestProjectMVP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3614463E29426EEE0074923E /* Build configuration list for PBXNativeTarget "JohnsonOutdoorsTest" */;
+			buildConfigurationList = 3614463E29426EEE0074923E /* Build configuration list for PBXNativeTarget "TestProjectMVP" */;
 			buildPhases = (
 				3614462329426EED0074923E /* Sources */,
 				3614462429426EED0074923E /* Frameworks */,
@@ -85,9 +207,9 @@
 			);
 			dependencies = (
 			);
-			name = JohnsonOutdoorsTest;
+			name = TestProjectMVP;
 			productName = JohnsonOutdoorsTest;
-			productReference = 3614462729426EED0074923E /* JohnsonOutdoorsTest.app */;
+			productReference = 3614462729426EED0074923E /* TestProjectMVP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3614462229426EED0074923E /* Build configuration list for PBXProject "JohnsonOutdoorsTest" */;
+			buildConfigurationList = 3614462229426EED0074923E /* Build configuration list for PBXProject "TestProjectMVP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3614462629426EED0074923E /* JohnsonOutdoorsTest */,
+				3614462629426EED0074923E /* TestProjectMVP */,
 			);
 		};
 /* End PBXProject section */
@@ -128,9 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367707942943A9DE004EF2D3 /* Generated.json in Resources */,
 				3614463A29426EEE0074923E /* LaunchScreen.storyboard in Resources */,
+				36144646294273D80074923E /* PersonalDataListViewController.xib in Resources */,
 				3614463729426EEE0074923E /* Assets.xcassets in Resources */,
-				3614463229426EED0074923E /* Main.storyboard in Resources */,
+				3614465E2942842A0074923E /* PersonalDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +265,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3614463529426EED0074923E /* JohnsonOutdoorsTest.xcdatamodeld in Sources */,
-				3614462F29426EED0074923E /* ViewController.swift in Sources */,
+				3614465329427C240074923E /* PersonalDataMO+CoreDataClass.swift in Sources */,
+				3677078F2942C3BC004EF2D3 /* DataFetcher.swift in Sources */,
+				3614463529426EED0074923E /* TestProjectMVP.xcdatamodeld in Sources */,
 				3614462B29426EED0074923E /* AppDelegate.swift in Sources */,
+				3614466129428F910074923E /* Extensions.swift in Sources */,
+				36144648294275830074923E /* PersonalDataListPresenter.swift in Sources */,
+				3614465029427B130074923E /* PersonalData.swift in Sources */,
+				3614464B2942799D0074923E /* PersonalDataDBManager.swift in Sources */,
+				3614465729427D370074923E /* PersonalDataUIModels.swift in Sources */,
+				3614464D29427A760074923E /* PeronalDataListFormatter.swift in Sources */,
 				3614462D29426EED0074923E /* SceneDelegate.swift in Sources */,
+				36144645294273D80074923E /* PersonalDataListViewController.swift in Sources */,
+				367707912942C4EF004EF2D3 /* PersonalDataFilter.swift in Sources */,
+				3614465429427C240074923E /* PersonalDataMO+CoreDataProperties.swift in Sources */,
+				367707A32982E237004EF2D3 /* PersonalDataParser.swift in Sources */,
+				3614465D2942842A0074923E /* PersonalDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3614463029426EED0074923E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3614463129426EED0074923E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3614463829426EEE0074923E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,10 +348,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestProjectMVP/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Polina-R..TestProjectMVP";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -274,9 +405,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestProjectMVP/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Polina-R..TestProjectMVP";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -293,10 +427,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQK8Z9V25M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JohnsonOutdoorsTest/Info.plist;
+				INFOPLIST_FILE = TestProjectMVP/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Polina-R..JohnsonOutdoorsTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polina-R..TestProjectMVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,10 +455,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQK8Z9V25M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JohnsonOutdoorsTest/Info.plist;
+				INFOPLIST_FILE = TestProjectMVP/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Polina-R..JohnsonOutdoorsTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polina-R..TestProjectMVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3614462229426EED0074923E /* Build configuration list for PBXProject "JohnsonOutdoorsTest" */ = {
+		3614462229426EED0074923E /* Build configuration list for PBXProject "TestProjectMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3614463C29426EEE0074923E /* Debug */,
@@ -352,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3614463E29426EEE0074923E /* Build configuration list for PBXNativeTarget "JohnsonOutdoorsTest" */ = {
+		3614463E29426EEE0074923E /* Build configuration list for PBXNativeTarget "TestProjectMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3614463F29426EEE0074923E /* Debug */,
@@ -364,13 +498,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3614463329426EED0074923E /* JohnsonOutdoorsTest.xcdatamodeld */ = {
+		3614463329426EED0074923E /* TestProjectMVP.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				3614463429426EED0074923E /* JohnsonOutdoorsTest.xcdatamodel */,
 			);
 			currentVersion = 3614463429426EED0074923E /* JohnsonOutdoorsTest.xcdatamodel */;
-			path = JohnsonOutdoorsTest.xcdatamodeld;
+			path = TestProjectMVP.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

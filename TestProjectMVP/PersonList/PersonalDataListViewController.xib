@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalDataListViewController" customModule="JohnsonOutdoorsTest" customModuleProvider="target">
+            <connections>
+                <outlet property="indicatorView" destination="xgO-k7-gk7" id="3oi-7Q-Tgi"/>
+                <outlet property="tableView" destination="yW6-T4-5BO" id="YyV-Of-86f"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yW6-T4-5BO">
+                    <rect key="frame" x="0.0" y="0.0" width="387" height="852"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="xgO-k7-gk7">
+                    <rect key="frame" x="168.66666666666666" y="401" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="LLy-Zx-sjz"/>
+                        <constraint firstAttribute="height" constant="50" id="MjS-3K-8CR"/>
+                    </constraints>
+                    <color key="color" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="xgO-k7-gk7" firstAttribute="centerY" secondItem="yW6-T4-5BO" secondAttribute="centerY" id="5Fe-ia-avj"/>
+                <constraint firstItem="yW6-T4-5BO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Agd-cg-EF6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yW6-T4-5BO" secondAttribute="trailing" constant="6" id="IhF-ve-WxG"/>
+                <constraint firstItem="yW6-T4-5BO" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="34" id="KPN-aR-iEE"/>
+                <constraint firstItem="xgO-k7-gk7" firstAttribute="centerX" secondItem="yW6-T4-5BO" secondAttribute="centerX" id="MBc-9J-3eI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="yW6-T4-5BO" secondAttribute="top" constant="59" id="kkI-Qg-7UH"/>
+            </constraints>
+            <point key="canvasLocation" x="93.89312977099236" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
